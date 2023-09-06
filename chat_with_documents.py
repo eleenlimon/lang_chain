@@ -119,8 +119,6 @@ if __name__ == '__main__':
                 # save vector_store in streamlit (persistent btwn reruns)
                 st.session_state.vs = vector_store
                 st.success('File uploaded, chunked and embedded successfully! :smile:')
-                
-st.write('Welcome, this application utilizes OpenAI technology, allowing users to upload documents and ask questions to receive accurate answers.')
 
     # user's question txt input widget
     q = st.text_input('Ask a question about the content of your file:')
