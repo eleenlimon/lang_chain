@@ -2,6 +2,7 @@ import streamlit as st
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 
+st.write('hello')
 
 # Load PDF, DOCX, and TXT files as Langchain Documents
 def load_document(file):
