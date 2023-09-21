@@ -3,6 +3,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 
 
+
 # Load PDF, DOCX, and TXT files as Langchain Documents
 def load_document(file):
     import os
